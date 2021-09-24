@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+.navbar,.login{
+  display: flex;
+  border: 1px solid black;
+
+  
+}
+.navbar{
+  justify-content: space-evenly;
+  padding: 1%;
+}
+
+.login{
+  margin: auto;
+  flex-direction: column;
+  width: 30%;
+  height: 300px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.login>input,.login>button{
+  width: 50%;
+}
